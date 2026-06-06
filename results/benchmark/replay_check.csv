@@ -1,0 +1,6 @@
+metric,locked_validation_value,replay_value,difference,tolerance,status,notes
+mean_AP,0.988562617983776,0.9885626179837759,1.1102230246251565e-16,1e-09,PASS,Deterministic replay from existing locked validation score exports.
+std_AP,0.0110985526688215,0.011098552668821494,5.204170427930421e-18,1e-09,PASS,Deterministic replay from existing locked validation score exports.
+n_datasets,15.0,15.0,0.0,0.0,PASS,Deterministic replay from existing locked validation score exports.
+max_dataset_AP_abs_diff,0.0,1.1102230246251565e-16,1.1102230246251565e-16,1e-08,PASS,Deterministic replay from existing locked validation score exports.
+selected_expert_all_match,True,True,0.0,0.0,PASS,Per-dataset selected expert comparison.

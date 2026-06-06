@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adamm-gama-hybrid"
+version = "0.1.0"
+description = "Small ADAMM-GAMA score-level hybrid package for anomaly detection in business process data."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scikit-learn", "joblib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Repository = "https://github.com/alexcalv/gnn-anomaly-detection-bi"
+ReproductionGuide = "docs/REPRODUCTION_GUIDE.md"
